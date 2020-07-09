@@ -23,7 +23,6 @@ steps:
     effectivePomSkip: false
     codeCoverageToolOption: 'Cobertura'
     codeCoverageClassFilter: '+:com.,+:org.,-:my.app*.*.'
-    sonarQubeRunAnalysis: true
     sqMavenPluginVersionChoice: 'latest'
     checkStyleRunAnalysis: true
     pmdRunAnalysis: true

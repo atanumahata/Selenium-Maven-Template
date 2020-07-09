@@ -28,6 +28,8 @@ steps:
     pmdRunAnalysis: true
     findBugsRunAnalysis: true
 
+
+
 - task: PublishCodeCoverageResults@1
   inputs:
     codeCoverageTool: 'Cobertura'

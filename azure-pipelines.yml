@@ -9,10 +9,12 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+settings:
+
 
 - task: Maven@3
   inputs:
-    mavenPomFile: 'https://github.com/atanumahata/Selenium-Maven-Template/blob/master/pom.xml'
+    mavenPomFile: 'pom.xml'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
